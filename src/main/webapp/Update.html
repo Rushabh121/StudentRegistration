@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration</title>
+    <style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		form {
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #f7f7f7;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		h1 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		input[type=text], input[type=email], input[type=tel] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: none;
+			border-radius: 3px;
+			box-shadow: 0 0 5px rgba(0,0,0,0.1);
+		}
+		input[type=submit], button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+		input[type=submit]:hover, button:hover {
+			background-color: #3e8e41;
+		}
+		button {
+			background-color: #f44336;
+			margin-left: 10px;
+		}
+	</style>
+</head>
+<body>
+<h1>Welcome to Update Page</h1>
+<body>
+<form action="UpdateServlet" method="post">
+    <label for="name">Id:</label>
+    <input type="text" id="id" name="id" required>  
+<br>
+<label for="name">Name:</label>
+    <input type="text" id="name" name="name" required> 
+<br>
+<label for="city">City:</label>
+    <input type="text" id="city" name="city" required>   
+<br>
+<label for="phone">Phone No:</label>
+    <input type="tel" id="phone" name="phone" required>   
+<br>
+<label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>  
+<br>
+    <input type="submit" value="Update">
+<br>
+
+
+</form>
+</body>
+</html>
+
